@@ -64,3 +64,34 @@ Go to the course folder, open the notebook `0_Check_Environment.ipynb` and run i
     Houston we are go!
 
 You are good to go! Enjoy!
+
+
+
+## Troubleshooting installation
+If for some reason you don't see `Houston we are go!`, the simplest solution is to delete the environment and start from scratch again.
+
+To remove the environment:
+
+- close the browser and go back to your terminal
+- stop jupyter notebook (CTRL-C)
+- deactivate the environment (Mac/Linux):
+
+    source deactivate
+
+- deactivate the environment (Windows 10):
+
+    deactivate ztdl
+
+- delete the environment:
+
+    conda remove -y -n ztdl --all
+
+- restart from environment creation and make sure that each steps completes till the end.
+
+These instructions have been tested on:
+
+- Mac OSX Sierra 10.12.4
+- Ubuntu 16.04
+- Windows 10
+
+
