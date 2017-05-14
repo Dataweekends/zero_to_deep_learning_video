@@ -15,18 +15,28 @@ git clone https://github.com/Dataweekends/zero_to_deep_learning_udemy.git
 
 https://www.continuum.io/downloads
 
-## Create Conda environment
+## Change to course folder
 
 ```
 cd zero_to_deep_learning_udemy
+```
 
+## Create the course environment
+
+```
 conda env create
 ```
 
-wait for the environment to create
+wait for the environment to create.
 
+## Activate the environment (Mac/Linux)
 ```
 source activate ztdl
+```
+
+## Activate the environment (Windows)
+```
+activate ztdl
 ```
 
 Check that your prompt changed to
@@ -47,4 +57,10 @@ jupyter notebook
 http://localhost:8888
 ```
 
-Enjoy!
+## Run the Check environment Notebook
+
+Go to the course folder, open the notebook `0_Check_Environment.ipynb` and run it. If you see the message:
+
+    Houston we are go!
+
+You are good to go! Enjoy!
