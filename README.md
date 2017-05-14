@@ -76,22 +76,34 @@ To remove the environment:
 - stop jupyter notebook (CTRL-C)
 - deactivate the environment (Mac/Linux):
 
-    source deactivate
+```
+source deactivate
+```
 
 - deactivate the environment (Windows 10):
 
-    deactivate ztdl
+```
+deactivate ztdl
+```
 
 - delete the environment:
 
-    conda remove -y -n ztdl --all
+```
+conda remove -y -n ztdl --all
+```
 
 - restart from environment creation and make sure that each steps completes till the end.
+
+## Updating Conda
+
+One thing you can also try is to update your conda executable. This may help if you already had Anaconda installed on your system.
+
+```
+conda update conda
+```
 
 These instructions have been tested on:
 
 - Mac OSX Sierra 10.12.4
 - Ubuntu 16.04
 - Windows 10
-
-
