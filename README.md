@@ -135,7 +135,7 @@ floyd init zerotodeeplearning
 
 #### Run a notebook with GPU support
 ```
-floyd run --mode jupyter --env tensorflow --gpu
+floyd run --mode jupyter --env tensorflow --gpu --data rz8m3aPaKt95PDTdEa4U6N
 ```
 Wait for the notebook to come online and then navigate to the url
 
