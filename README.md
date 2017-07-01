@@ -107,6 +107,14 @@ These instructions have been tested on:
 - Ubuntu 16.04
 - Windows 10
 
+## Running the course on Docker
+
+Run this command from terminal and copy Jupyter notebook url to browser after installation.
+
+```
+docker-compose up
+```
+
 ## Running the course on Floyd with GPU support
 
 The guys at [FloydHub](www.floydhub.com) are doing an excellent job of providing a zero-install platform-as-a-service for training and deploying DL models in the cloud. Here are the steps to run the course on Floyd:
