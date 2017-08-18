@@ -15,6 +15,5 @@ dependencies:
 - h5py==2.7.0
 - pytest==3.1.3
 - pip:
-  # TODO: update this to tensorflow==1.3 as soon as release comes out
-  - tensorflow==1.2.1
+  - tensorflow==1.3.0
   - keras==2.0.6
