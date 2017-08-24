@@ -41,8 +41,8 @@ def test_5():
 #     _exec_notebook('course/6 Convolutional Neural Networks.ipynb')
 
 
-# def test_8():
-#     _exec_notebook('course/8 Recurrent Neural Networks.ipynb')
+def test_8():
+    _exec_notebook('course/8 Recurrent Neural Networks.ipynb')
 
 
 # def test_9():
@@ -69,8 +69,8 @@ def test_5_sol():
 #     _exec_notebook('solutions/6 Convolutional Neural Networks Exercises Solution.ipynb')
 
 
-# def test_8_sol():
-#     _exec_notebook('solutions/8 Recurrent Neural Networks Exercises Solutions.ipynb')
+def test_8_sol():
+    _exec_notebook('solutions/8 Recurrent Neural Networks Exercises Solutions.ipynb')
 
 
 # def test_9_sol():
