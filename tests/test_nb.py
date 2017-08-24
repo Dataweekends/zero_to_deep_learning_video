@@ -41,8 +41,8 @@ def test_5():
 #     _exec_notebook('course/6 Convolutional Neural Networks.ipynb')
 
 
-# def test_8():
-#     _exec_notebook('course/8 Recurrent Neural Networks.ipynb')
+def test_8():
+    _exec_notebook('course/8 Recurrent Neural Networks.ipynb')
 
 
 # def test_9():
