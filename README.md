@@ -13,7 +13,7 @@ git clone https://github.com/Dataweekends/zero_to_deep_learning_udemy.git
 
 #### Download and Install Anaconda Python 3.6
 
-https://www.continuum.io/downloads
+https://www.anaconda.com/download/
 
 #### Change to course folder
 
@@ -31,12 +31,12 @@ wait for the environment to create.
 
 #### Activate the environment (Mac/Linux)
 ```
-source activate ztdl
+conda activate ztdl
 ```
 
 #### Activate the environment (Windows)
 ```
-activate ztdl
+conda activate ztdl
 ```
 
 Check that your prompt changed to
@@ -76,7 +76,7 @@ To remove the environment:
 - deactivate the environment (Mac/Linux):
 
 ```
-source deactivate
+conda deactivate
 ```
 
 - deactivate the environment (Windows 10):
@@ -103,8 +103,8 @@ conda update conda
 
 These instructions have been tested on:
 
-- Mac OSX Sierra 10.12.4
-- Ubuntu 16.04
+- Mac OSX Sierra 10.14.1
+- Ubuntu 18.04
 - Windows 10
 
 ## Running the course on Floyd with GPU support
@@ -148,4 +148,3 @@ When you are finished, remember to STOP the floyd environment so that you don't 
 floyd stop <PROJECT-ID>
 ```
 Make sure that you have stopped the project by checking the floyd page.
-
