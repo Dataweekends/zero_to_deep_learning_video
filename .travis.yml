@@ -19,4 +19,4 @@ install:
   - source activate test-environment
 
 script:
-  - travis_wait 30 py.test
+  - travis_wait 30 py.test -v
