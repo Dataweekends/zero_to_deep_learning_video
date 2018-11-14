@@ -1,4 +1,4 @@
-FROM continuumio/miniconda3:4.3.14
+FROM continuumio/miniconda3:latest
 
 ENTRYPOINT ["/bin/bash", "-c" ]
 
@@ -11,4 +11,4 @@ RUN conda env create
 RUN chown -R course:course .
 
 USER course
-CMD ["source activate ztdl && jupyter notebook --ip='*' --port=8888 --no-browser"]
+CMD ["source activate ztdl && jupyter notebook --ip='0.0.0.0' --port=8888 --no-browser"]
