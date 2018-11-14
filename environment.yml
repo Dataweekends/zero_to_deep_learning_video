@@ -18,6 +18,6 @@ dependencies:
 - h5py==2.8.*
 - pytest==3.9.*
 - twisted==18.9.*
-- tensorflow==1.10.*
+- tensorflow==1.11.*
 - pip:
   - keras==2.2.*

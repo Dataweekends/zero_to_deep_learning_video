@@ -1,7 +1,6 @@
-# Zero to Deep Learning™ Udemy Video Course
+# Zero to Deep Learning® Udemy Video Course
 
-
-Welcome to the Zero to Deep Learning Video Course repository
+Welcome to the Zero to Deep Learning Video Course repository.
 
 ## Get started guide
 
@@ -107,13 +106,40 @@ These instructions have been tested on:
 - Ubuntu 18.04
 - Windows 10
 
+## Running the course on Google Colaboratory with GPU support
+
+Google offers a free platform to run Jupyter notebooks called Google Colaboratory. You need a Gmail or Google Apps email address to use it.
+
+Follow these steps:
+
+1. Open your browser and go to https://colab.research.google.com/
+2. Choose the **GITHUB** tab and paste the repository address: https://github.com/Dataweekends/zero_to_deep_learning_udemy in the search bar:
+
+3. Click on the notebook you would like to run
+
+4. Enable GPU support in the `Edit -> Notebook Settings` menu
+
+5. Enjoy running the notebook with GPU support!
+
+6. If the notebook loads data from the repo you will have to download the data too. Create a code cell at the top of the notebook:
+
+7. Clone the repository in Colab:
+
+```
+!git clone https://github.com/Dataweekends/zero_to_deep_learning_udemy.git
+```
+
+8. Replace the `../data` path with `zero_to_deep_learning_udemy/data` in the cell that loads the data.
+
+9. Enjoy!
+
 ## Running the course on Floyd with GPU support
 
-The guys at [FloydHub](www.floydhub.com) are doing an excellent job of providing a zero-install platform-as-a-service for training and deploying DL models in the cloud. Here are the steps to run the course on Floyd:
+[FloydHub](www.floydhub.com) provides a zero-install platform-as-a-service for training and deploying DL models in the cloud. Here are the steps to run the course on Floyd:
 
 #### Sign-up on FloydHub
 
-Go to: www.floydhub.com and register. As a new user you get 100 hours of free GPU, which is a great starting point.
+Go to: www.floydhub.com and register.
 
 #### Install or update Floyd
 
