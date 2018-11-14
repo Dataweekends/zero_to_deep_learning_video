@@ -1,16 +1,16 @@
-name: ztdl
+name: ztdl-gpu
 channels:
 - defaults
 dependencies:
 - python=3.6.*
 - bz2file==0.98
-- cython==0.29.*
-- pip==10.0.*
-- numpy==1.15.*
-- jupyter==1.0.*
-- matplotlib==3.0.*
-- setuptools==39.1.*
-- scikit-learn==0.20.*
+- cython==0.29
+- pip==10.0.1
+- numpy==1.15.4
+- jupyter==1.0.0
+- matplotlib==3.0.1
+- setuptools==39.1.0
+- scikit-learn==0.20.4
 - scipy==1.1.*
 - pandas==0.23.*
 - pillow==5.3.*
@@ -18,6 +18,6 @@ dependencies:
 - h5py==2.8.*
 - pytest==3.9.*
 - twisted==18.9.*
-- tensorflow==1.11.*
+- tensorflow-gpu==1.11.*
 - pip:
   - keras==2.2.*

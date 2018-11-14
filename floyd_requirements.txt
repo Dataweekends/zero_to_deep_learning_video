@@ -1,1 +1,1 @@
-seaborn==0.7.1
+seaborn==0.8

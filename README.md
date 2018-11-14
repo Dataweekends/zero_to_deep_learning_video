@@ -1,7 +1,6 @@
-# Zero to Deep Learning™ Udemy Video Course
+# Zero to Deep Learning® Udemy Video Course
 
-
-Welcome to the Zero to Deep Learning Video Course repository
+Welcome to the Zero to Deep Learning Video Course repository.
 
 ## Get started guide
 
@@ -13,7 +12,7 @@ git clone https://github.com/Dataweekends/zero_to_deep_learning_udemy.git
 
 #### Download and Install Anaconda Python 3.6
 
-https://www.continuum.io/downloads
+https://www.anaconda.com/download/
 
 #### Change to course folder
 
@@ -31,12 +30,12 @@ wait for the environment to create.
 
 #### Activate the environment (Mac/Linux)
 ```
-source activate ztdl
+conda activate ztdl
 ```
 
 #### Activate the environment (Windows)
 ```
-activate ztdl
+conda activate ztdl
 ```
 
 Check that your prompt changed to
@@ -76,7 +75,7 @@ To remove the environment:
 - deactivate the environment (Mac/Linux):
 
 ```
-source deactivate
+conda deactivate
 ```
 
 - deactivate the environment (Windows 10):
@@ -103,25 +102,45 @@ conda update conda
 
 These instructions have been tested on:
 
-- Mac OSX Sierra 10.12.4
-- Ubuntu 16.04
+- Mac OSX Sierra 10.14.1
+- Ubuntu 18.04
 - Windows 10
 
 ## Running the course on Docker
 
-Run this command from terminal and copy Jupyter notebook url to browser after installation.
+Run this command from terminal in course directory and copy Jupyter notebook url to browser after installation.
 
 ```
 docker-compose up
 ```
 
+## Running the course on Google Colaboratory with free GPU support
+
+Google offers a free platform to run Jupyter notebooks called Google Colaboratory. You need a Gmail or Google Apps email address to use it.
+
+Follow these steps:
+
+1. Open your browser and go to https://colab.research.google.com/
+2. Choose the **GITHUB** tab and paste the repository address: `https://github.com/Dataweekends/zero_to_deep_learning_udemy` in the search bar.
+3. Click on the notebook you would like to run
+4. Enable GPU support in the `Edit -> Notebook Settings` menu
+5. Enjoy running the notebook with GPU support!
+6. If the notebook loads data from the repo you will have to download the data too. Follow these steps to do that:
+  1. Create a code cell at the top of the notebook
+  2. Clone the repository in Colab:
+  ```
+  !git clone https://github.com/Dataweekends/zero_to_deep_learning_udemy.git
+  ```
+  3. Replace the `../data` path with `zero_to_deep_learning_udemy/data` in the cell that loads the data.
+7. Enjoy!
+
 ## Running the course on Floyd with GPU support
 
-The guys at [FloydHub](www.floydhub.com) are doing an excellent job of providing a zero-install platform-as-a-service for training and deploying DL models in the cloud. Here are the steps to run the course on Floyd:
+[FloydHub](www.floydhub.com) provides a zero-install platform-as-a-service for training and deploying DL models in the cloud. Here are the steps to run the course on Floyd:
 
 #### Sign-up on FloydHub
 
-Go to: www.floydhub.com and register. As a new user you get 100 hours of free GPU, which is a great starting point.
+Go to: www.floydhub.com and register.
 
 #### Install or update Floyd
 
@@ -143,7 +162,7 @@ floyd init zerotodeeplearning
 
 #### Run a notebook with GPU support
 ```
-floyd run --mode jupyter --env tensorflow --gpu --data rz8m3aPaKt95PDTdEa4U6N
+floyd run --mode jupyter --env tensorflow --gpu --data ghegoo/datasets/crowdflower-male-female/1
 ```
 Wait for the notebook to come online and then navigate to the url
 
@@ -156,4 +175,3 @@ When you are finished, remember to STOP the floyd environment so that you don't 
 floyd stop <PROJECT-ID>
 ```
 Make sure that you have stopped the project by checking the floyd page.
-
