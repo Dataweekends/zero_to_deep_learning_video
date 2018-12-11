@@ -1,6 +1,6 @@
 # Zero to Deep Learning® Video Course
 
-Welcome to the Zero to Deep Learning Video Course repository.
+Welcome to the Zero to Deep Learning® Video Course repository.
 
 ## Get started guide
 
