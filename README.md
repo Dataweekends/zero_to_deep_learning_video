@@ -1,4 +1,4 @@
-# Zero to Deep Learning® Udemy Video Course
+# Zero to Deep Learning® Video Course
 
 Welcome to the Zero to Deep Learning Video Course repository.
 
@@ -7,7 +7,7 @@ Welcome to the Zero to Deep Learning Video Course repository.
 #### Clone this repository on your local computer
 
 ```
-git clone https://github.com/Dataweekends/zero_to_deep_learning_udemy.git
+git clone https://github.com/Dataweekends/zero_to_deep_learning_video.git
 ```
 
 #### Download and Install Anaconda Python 3.6
@@ -17,7 +17,7 @@ https://www.anaconda.com/download/
 #### Change to course folder
 
 ```
-cd zero_to_deep_learning_udemy
+cd zero_to_deep_learning_video
 ```
 
 #### Create the course environment
@@ -113,7 +113,7 @@ Google offers a free platform to run Jupyter notebooks called Google Colaborator
 Follow these steps:
 
 1. Open your browser and go to https://colab.research.google.com/
-2. Choose the **GITHUB** tab and paste the repository address: `https://github.com/Dataweekends/zero_to_deep_learning_udemy` in the search bar.
+2. Choose the **GITHUB** tab and paste the repository address: `https://github.com/Dataweekends/zero_to_deep_learning_video` in the search bar.
 3. Click on the notebook you would like to run
 4. Enable GPU support in the `Edit -> Notebook Settings` menu
 5. Enjoy running the notebook with GPU support!
@@ -121,9 +121,9 @@ Follow these steps:
   1. Create a code cell at the top of the notebook
   2. Clone the repository in Colab:
   ```
-  !git clone https://github.com/Dataweekends/zero_to_deep_learning_udemy.git
+  !git clone https://github.com/Dataweekends/zero_to_deep_learning_video.git
   ```
-  3. Replace the `../data` path with `zero_to_deep_learning_udemy/data` in the cell that loads the data.
+  3. Replace the `../data` path with `zero_to_deep_learning_video/data` in the cell that loads the data.
 7. Enjoy!
 
 ## Running the course on Floyd with GPU support
