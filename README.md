@@ -1,3 +1,7 @@
+Like this video course? Take our in-person Bootcamp 3-7 June, San Francisco. [Register here](https://bootcamp.zerotodeeplearning.com)
+
+------
+
 # Zero to Deep Learning® Video Course
 
 Welcome to the Zero to Deep Learning® Video Course repository.
