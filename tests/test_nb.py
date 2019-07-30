@@ -3,10 +3,13 @@
 
 import subprocess
 import tempfile
+import os
+
+test_dir = os.path.dirname(os.path.realpath(__file__)))
 
 
 def _exec_notebook(path):
-    with tempfile.NamedTemporaryFile(suffix=".ipynb") as fout:
+    with tempfile.NamedTemporaryFile(suffix=".ipynb", dir=test_dir) as fout:
         args = ["jupyter", "nbconvert", "--to", "notebook", "--execute",
                 "--ExecutePreprocessor.timeout=1000",
                 "--output", fout.name, path]
