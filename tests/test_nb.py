@@ -5,7 +5,7 @@ import subprocess
 import tempfile
 import os
 
-test_dir = os.path.dirname(os.path.realpath(__file__)))
+test_dir = os.path.dirname(os.path.realpath(__file__))
 
 
 def _exec_notebook(path):
