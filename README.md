@@ -14,9 +14,9 @@ Welcome to the Zero to Deep Learning® Video Course repository.
 git clone https://github.com/Dataweekends/zero_to_deep_learning_video.git
 ```
 
-#### Download and Install Anaconda Python 3.6
+#### Download and Install Anaconda Python 3.7
 
-https://www.anaconda.com/download/
+https://www.anaconda.com/distribution/
 
 #### Change to course folder
 
