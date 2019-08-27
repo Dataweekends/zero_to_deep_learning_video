@@ -1,4 +1,4 @@
-## [Check our Zero To Deep Learning 5 day bootcamp. New dates are out!](https://www.zerotodeeplearning.com)
+## [Check our Zero To Deep Learning 5 day bootcamp. New dates are out!](https://www.zerotodeeplearning.com/?utm_source=github.com&utm_medium=affiliate&utm_campaign=https%3A%2F%2Fgithub.com%2FDataweekends%2Fzero_to_deep_learning_video&utm_content=README.md)
 
 ------
 
