@@ -110,6 +110,14 @@ These instructions have been tested on:
 - Ubuntu 18.04
 - Windows 10
 
+## Running the course on Docker
+
+Run this command from terminal in course directory and copy Jupyter notebook url to browser after installation.
+
+```
+docker-compose up
+```
+
 ## Running the course on Google Colaboratory with free GPU support
 
 Google offers a free platform to run Jupyter notebooks called Google Colaboratory. You need a Gmail or Google Apps email address to use it.
