@@ -106,7 +106,7 @@ conda update conda
 
 These instructions have been tested on:
 
-- Mac OSX Sierra 10.14.1
+- Mac OSX Sierra 10.15.7
 - Ubuntu 18.04
 - Windows 10
 
@@ -129,45 +129,3 @@ Follow these steps:
   ```
   3. Replace the `../data` path with `zero_to_deep_learning_video/data` in the cell that loads the data.
 7. Enjoy!
-
-## Running the course on Floyd with GPU support
-
-[FloydHub](www.floydhub.com) provides a zero-install platform-as-a-service for training and deploying DL models in the cloud. Here are the steps to run the course on Floyd:
-
-#### Sign-up on FloydHub
-
-Go to: www.floydhub.com and register.
-
-#### Install or update Floyd
-
-In the terminal, with the activated `ztdl` environment, run:
-```
-pip install -U floyd-cli
-```
-
-#### Login into Floyd
-```
-floyd login
-```
-This will open a browser and you will have to log in with your User/Password. Then copy the token to the terminal and hit ENTER.
-
-#### Initialize the current project
-```
-floyd init zerotodeeplearning
-```
-
-#### Run a notebook with GPU support
-```
-floyd run --mode jupyter --env tensorflow --gpu --data ghegoo/datasets/crowdflower-male-female/1
-```
-Wait for the notebook to come online and then navigate to the url
-
-#### Enjoy GPU power
-Run a notebook and experience the awesome power of a GPU!
-
-#### STOP floyd
-When you are finished, remember to STOP the floyd environment so that you don't incur in charges.
-```
-floyd stop <PROJECT-ID>
-```
-Make sure that you have stopped the project by checking the floyd page.

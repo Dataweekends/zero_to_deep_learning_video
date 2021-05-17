@@ -5,19 +5,17 @@ dependencies:
 - python=3.7.*
 - bz2file==0.98
 - cython==0.29.*
-- pip==19.1.*
-- numpy==1.16.*
+- pip==21.0.*
+- numpy==1.19.*
 - jupyter==1.0.*
-- matplotlib==3.1.*
-- setuptools==41.0.*
-- scikit-learn==0.21.*
-- scipy==1.2.*
-- pandas==0.24.*
-- pillow==6.1.*
-- seaborn==0.9.*
-- h5py==2.9.*
-- pytest==5.0.*
-- twisted==19.2.*
-- tensorflow==1.13.*
+- matplotlib==3.3.*
+- setuptools==52.0.*
+- scikit-learn==0.24.*
+- scipy==1.6.*
+- pandas==1.2.*
+- pillow==8.2.*
+- seaborn==0.11.*
+- pytest==6.2.*
+- twisted==21.2.*
 - pip:
-  - keras==2.2.*
+  - tensorflow==2.5.*
