@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  zero_to_deep_learning:
+    build:
+      context: .
+      dockerfile: dockerfile
+
+    ports:
+      - 8888:8888
