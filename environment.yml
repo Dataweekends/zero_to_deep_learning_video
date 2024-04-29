@@ -1,14 +1,18 @@
 name: ztdl
 channels:
 - defaults
+- jasonb857
+- bitsort
+- sunpy
+- HCC
 dependencies:
-- python=3.7.*
+- python=3.8.*
 - bz2file==0.98
 - cython==0.29.*
-- pip==21.0.*
+- pip==23.0.*
 - numpy==1.19.*
 - jupyter==1.0.*
-- matplotlib==3.3.*
+- matplotlib==3.4.*
 - setuptools==52.0.*
 - scikit-learn==0.24.*
 - scipy==1.6.*
@@ -18,4 +22,4 @@ dependencies:
 - pytest==6.2.*
 - twisted==21.2.*
 - pip:
-  - tensorflow==2.5.*
+  - tensorflow==2.13.*
